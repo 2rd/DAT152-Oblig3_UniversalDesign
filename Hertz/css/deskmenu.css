@@ -22,6 +22,9 @@ li a:hover {
     background-color: #f4d142;
     color: black;
 }
+div span{
+    color: #f4d142;
+}
 
 #logo{
     
@@ -38,7 +41,7 @@ li a:hover {
     color: black;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 1px solid #f4d142;
 }
 
 #login:hover {
@@ -93,8 +96,16 @@ nav {
 }
 
 ul {
+    
+}
+#svgtest{
+    fill:red;
+}
+
+#desktopMenu{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #header{
@@ -104,19 +115,43 @@ ul {
     justify-content: space-between;
 }
 
+#header-right{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.separator-vertical{
+    border-right: 1px solid #3f3f3f;
+    height: 40px;
+}
+
 footer{
     position: fixed;
     left: 0;
     bottom: 0; 
     width: 100%;
+    height: 100px;
 }
 
 hr {
-    color: #f4d142;
-    width: 100%;
+    background-color: #f4d142;
+    width: 90%;
+    height: 2px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
-#searchfield {
-        margin-left: 20px; 
-        margin-bottom: 20px;
+#inputField{
+        height: 100px; 
+        width: 30%;
+        margin-left: 5%;
+}
+
+#newsletterField {
+        margin-left: 0; 
+        
+}
+
+#addBtn {
+
 }
