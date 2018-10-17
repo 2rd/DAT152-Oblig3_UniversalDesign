@@ -135,6 +135,7 @@ ul {
 }
 #header-right{
     display: flex;
+    justify-content: space-between;
 }
 
 footer{
@@ -214,6 +215,9 @@ hr {
 #language-selector{
     display: flex;
     align-items: center;
+}
+#language-selector span{
+    color: #f4d142;
 }
 
 #globe-icon-header{
