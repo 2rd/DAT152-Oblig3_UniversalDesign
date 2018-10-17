@@ -1,6 +1,3 @@
-body{
-    background-color: black;
-}
 
 .dropbtn {
     background-color: black;
@@ -103,4 +100,21 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+}
+
+hr {
+    color: #f4d142;
+    width: 100%;
+}
+
+#searchfield {
+        margin-left: 20px; 
+        margin-bottom: 20px;
 }
