@@ -43,14 +43,13 @@ li a:hover {
     color: black;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 1px solid #f4d142;
 }
 
 #login:hover {
     background-color: black;
     color: #f4d142;
-    border-style: solid;
-    border-color: #f4d142;
+    border: 1px solid #f4d142;
 }
 
 .dropdown {
@@ -100,7 +99,9 @@ nav {
 }
 
 ul {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -114,6 +115,9 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+#header-right{
+    display: flex;
 }
 
 footer{
