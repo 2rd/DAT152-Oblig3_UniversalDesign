@@ -179,7 +179,7 @@ hr {
     background-color: darkblue;
 }
 
-<<<<<<< HEAD
+
 #searchfield {
         margin-left: 20px; 
         margin-bottom: 20px;
@@ -190,8 +190,9 @@ hr {
 }
 #globe-icon-header{
     margin-right: 5px;
-=======
+}
+
 .icon {
     height: 24px;
->>>>>>> 98fbae850658085cfff4a62cb0306b080645dab9
+
 }
