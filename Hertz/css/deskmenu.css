@@ -1,3 +1,4 @@
+
 .dropbtn {
     background-color: black;
     color: white;
@@ -5,7 +6,9 @@
     font-size: 16px;
     border: none;
 }
-
+main {
+    margin-top: 200px;
+}
 li a {
     background-color: black;
     color: white;
@@ -111,6 +114,7 @@ ul {
     align-items: center;
     justify-content: space-between;
 }
+
 #header-right{
     width: 400px;
     display: flex;
@@ -119,4 +123,21 @@ ul {
 .separator-vertical{
     border-right: 1px solid #3f3f3f;
     height: 40px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+}
+
+hr {
+    color: #f4d142;
+    width: 100%;
+}
+
+#searchfield {
+        margin-left: 20px; 
+        margin-bottom: 20px;
 }
