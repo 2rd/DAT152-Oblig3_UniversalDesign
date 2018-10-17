@@ -1,7 +1,9 @@
+h1, form {
+    font-family: tahoma;
+}
 form {
 	background-color: #f2f2f2;
 	padding: 20px;
-    font-family: tahoma;
 }
 
 .container {
@@ -12,6 +14,7 @@ form {
 .containerLabel {
     font-weight: bold;
     font-size: 20px;
+    padding-top: 30px !important;
 }
 
 

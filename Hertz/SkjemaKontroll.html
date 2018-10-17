@@ -1,11 +1,10 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/deskmenu.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/deskmenu.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-	<title>Bestillingskjema</title>
+	<title>Kontroller Skjema</title>
 </head>
 <body>
 	<nav>
@@ -73,44 +72,40 @@
 			</li>
 		</ul>
 	</nav>
+	<h1>Kontroller Skjema:</h1>
+	<table>
+		<tr>
+			<td>Navn:</td>
+			<td>Arild Vågene</td>
+		</tr>
 
-	<main>
-		<header><h1>Bestilling</h1></header>
-		<form action="#">	
-			<label for="fullt navn">Fullt Navn:<span class="required"> *</span>
-			<input required type="text" name="fullt navn" id="fullt navn">
-			</label>
-				
-			<label for="email">E-post:<span class="required"> *</span></label>
-			<input required type="email" name="email" id="email">
+		<tr>
+			<td>E-post:</td>
+			<td>Arild.Vaagene@gmail.com</td>
+		</tr>
 
-			<label for="phone">Telefon nummer:<span class="required"> *</span></label>
-			<input type="nummer" name="phone" maxlength="8" minlength="8" id="phone" required>
+		<tr>
+			<td>Telefon nummer</td>
+			<td>403 11 338</td>
+		</tr>
 
-			<label for="alder">Din alder ved hentetidspunktet:<span class="required"> *</span></label>
-			<input type="number" name="alder" required min="18" max="115" name="alder" id="alder">
-				
-			<div class="container"> 
-				<h2 class="containerLabel">Hentes</h2>
-				<label for="henteDato">dato:<span class="required"> *</span></label>
-				<input required type="date" name="henteDato" id="henteDato">
-				<label for="henteTid">klokkeslett:<span class="required" > *</span></label>
-				<input required type="time" name="leveringsKlokke" id="henteTid">
-			</div>
+		<tr>
+			<td>Alder ved hentetidspunkt:</td>
+			<td>28</td>
+		</tr>
 
-			
-			<div class="container"> 
-				<h2 class="containerLabel">Leveres</h2>
-				<label for="leveringsDato">dato:<span class="required"> *</span></label>
-				<input required type="date" name="leveringsDato" id="leveringsDato">
-				<label for="leveringsTid">klokkeslett:<span class="required"> *</span></label>
-				<input required type="time" name="henteTidspunkt" id="leveringsTid">
-			</div>
-			<input type="submit" name="bestill" id="submit" value="Bestill">
-			
-		</form>
-	</main>
+		<tr>
+			<td>Hentes:</td>
+			<td> 12. September 2018 - Klokken 18.00</td>
+		</tr>
 
+		<tr>
+			<td>Leveres:</td>
+			<td>18. september 2018 - klokken 13.30</td>
+		</tr>
+		
+		
+	</table>
 
 </body>
 </html>
