@@ -1,16 +1,27 @@
 form {
 	background-color: #f2f2f2;
 	padding: 20px;
+    font-family: tahoma;
+}
+
+.container {
+    
 }
 
 
-span{
-	color: red;
+.containerLabel {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.required {
+    color: red;
 }
 
 input, textarea {
 
-	width: 100%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
