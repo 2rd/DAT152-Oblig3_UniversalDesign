@@ -92,7 +92,9 @@
 		<hr>
 		<div id="footerContainer">
 			<div id="leftFooter">
-				<input type="text" name="nyhetsbrev" id="newsletterField" placeholder="Meld deg på vårt nyhetsbrev">		
+				<input type="text" name="nyhetsbrev" id="newsletterField" placeholder="Meld deg på nyhetsbrevet" 
+				onfocus="this.placeholder = ''"
+				onblur="this.placeholder = 'Meld deg på nyhetsbrevet'">		
 				<button id="addBtn">Meld inn!</button>
 			</div>
 

@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 
 .dropbtn {
     background-color: black;
@@ -50,6 +53,20 @@ li a:hover {
     background-color: black;
     color: #f4d142;
     border: 1px solid #f4d142;
+}
+
+#addBtn {
+    background-color: black;
+    color: #f4d142;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #f4d142;
+}
+
+#addBtn:hover {
+    background-color: #f4d142;
+    color: black;
+    border: 2px solid #f4d142;
 }
 
 .dropdown {
@@ -162,6 +179,10 @@ hr {
 
 #newsletterField {
     margin-left: 0; 
+    padding: 9px;
+    background-color: #272827;
+    border: 1px;
+    border-color: #272827;
 }
 
 #addBtn {
