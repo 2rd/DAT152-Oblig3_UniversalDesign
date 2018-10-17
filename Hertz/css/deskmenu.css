@@ -19,6 +19,9 @@ li a:hover {
     background-color: #f4d142;
     color: black;
 }
+div span{
+    color: #f4d142;
+}
 
 #logo{
     
@@ -35,7 +38,7 @@ li a:hover {
     color: black;
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 1px solid #f4d142;
 }
 
 #login:hover {
@@ -90,8 +93,16 @@ nav {
 }
 
 ul {
+    
+}
+#svgtest{
+    fill:red;
+}
+
+#desktopMenu{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #header{
@@ -99,4 +110,13 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+#header-right{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.separator-vertical{
+    border-right: 1px solid #3f3f3f;
+    height: 40px;
 }
