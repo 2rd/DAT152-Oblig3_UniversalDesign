@@ -1,0 +1,65 @@
+﻿*{
+    box-sizing:border-box;
+}
+#vehicleContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+h2 {
+    text-align:center;
+}
+.car {
+    padding: 1px;
+    
+}
+.carList {
+    display: none;
+    border: 10px solid #EDEDED;
+}
+#ACars {
+    display: flex;
+}
+.carContainer{
+    background-color: white;
+}
+#vehicleContainer{
+    background-color: white;
+}
+
+.greyBtn {
+    color: black;
+    background-color: #F2F2F2;
+}
+
+.yellowBtn {
+    color: black;
+    background-color: #FFD100;
+}
+.carContainer {
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+.carImg {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #CCC;
+    height: auto;
+    width: auto;
+}
+.carName{
+    font-weight: 700;
+    padding: 4px;
+}
+.orderBtn {
+    color: black;
+    background-color: #F2F2F2;
+    padding: 5px 100px 5px 100px;
+    border: none;
+    text-decoration: none;
+}
+td{
+    padding-left: 10px;
+    padding-right:10px;
+}
