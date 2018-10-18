@@ -37,6 +37,10 @@ li a:hover {
     color: black;
 }
 
+#logo-img-link:hover{
+    background-color: transparent;
+
+}
 
 #logo{
     
