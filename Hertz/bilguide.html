@@ -644,9 +644,10 @@
         <hr>
         <div id="footerContainer">
             <div id="leftFooter">
-                <input type="text" name="nyhetsbrev" id="newsletterField" placeholder="Meld deg på nyhetsbrevet" 
-                onfocus="this.placeholder = ''"
-                onblur="this.placeholder = 'Meld deg på nyhetsbrevet'">     
+                <label id="newsletterLabel" for="newsletterField">Nyhetsbrev</label>
+                <input type="text" name="nyhetsbrev" id="newsletterField" placeholder="Meld deg på nyhetsbrevet"
+                       onfocus="this.placeholder = ''"
+                       onblur="this.placeholder = 'Meld deg på nyhetsbrevet'">
                 <button id="addBtn">Meld inn!</button>
             </div>
 
@@ -654,7 +655,7 @@
                 <ul>
                     <li>
                         <button id="facebookLike">
-                            <img src="./img/likeicon.png" id ="likeIcon" alt="Facebook like icon">
+                            <img src="./img/likeicon.png" id="likeIcon" alt="facebook like">
                             <strong>Liker</strong>  321k
                         </button>
                     </li>
@@ -674,7 +675,8 @@
             </div>
         </div>
         <hr>
-        </footer>
+
+    </footer>
         <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
