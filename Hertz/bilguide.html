@@ -125,17 +125,6 @@
     </nav>
     <main>
         <div id="vehicleContainer">
-            <div>
-                <span>
-                    <label for="destinasjon">Velg destinasjonsland</label>
-                </span>
-                <select id="destinasjon" name="velg destinasjonsland">
-                    <option value="Norge">Norge</option>
-                    <option value="Danmark">Danmark</option>
-                    <option value="Finland">Finland</option>
-                    <option value="Sverige">Sverige</option>                                 
-                </select>
-            </div>
             <div id="categoriesContainer">
                 <h2 id="categoryHeadline">Kategorier</h2>
                 <ul id="categoryList">
@@ -163,8 +152,8 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="carImg">
-                                                <img src="img/peugot108.jpg" alt="Peugot 108" />
+                                            <div class="carImgWrapper">
+                                                <img src="img/peugot108.jpg" alt="Peugot 108" class="carImg"/>
                                             </div>
                                         </td>
                                     </tr>
@@ -229,14 +218,14 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="carImg">
-                                                <img src="img/peugot108.jpg" alt="Peugot 108" />
+                                            <div class="carImgWrapper">
+                                                <img src="img/VolvoV40.jpg" alt="Volvo V40" class="carImg"/>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="carName">Peugot 108</div>
+                                            <div class="carName">Volvo V40</div>
                                         </td>
                                     </tr>
                                     <tr>
@@ -246,34 +235,34 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>Forbruk: </td>
-                                                            <td>0,41L pr. 10km</td>
+                                                            <td>0,42L pr. 10km</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Motor: </td>
-                                                            <td>68hk</td>
+                                                            <td>115hk</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Drivstoff: </td>
-                                                            <td>Bensin</td>
+                                                            <td>Diesel</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Årsmodell: </td>
-                                                            <td>2015</td>
+                                                            <td>2013</td>
                                                         </tr>
                                                         <tr>
                                                             <th>Priser</th>
                                                         </tr>
                                                         <tr>
                                                             <td>Pr. dag:</td>
-                                                            <td>kr. 850,-</td>
+                                                            <td>kr. 1000,-</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Pr. uke:</td>
-                                                            <td>kr. 4500,-</td>
+                                                            <td>kr. 5000,-</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Pr. måned:</td>
-                                                            <td>kr. 12000,-</td>
+                                                            <td>kr. 15000,-</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -295,14 +284,14 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <div class="carImg">
-                                                <img src="img/peugot108.jpg" alt="Peugot 108" />
+                                            <div class="carImgWrapper">
+                                                <img src="img/VWGolf.jpg" alt="Volgswagen Golf" class="carImg"/>
                                             </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <div class="carName">Peugot 108</div>
+                                            <div class="carName">VW Golf</div>
                                         </td>
                                     </tr>
                                     <tr>
@@ -312,34 +301,34 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>Forbruk: </td>
-                                                            <td>0,41L pr. 10km</td>
+                                                            <td>0,38L pr. 10km</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Motor: </td>
-                                                            <td>68hk</td>
+                                                            <td>105hk</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Drivstoff: </td>
-                                                            <td>Bensin</td>
+                                                            <td>Diesel</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Årsmodell: </td>
-                                                            <td>2015</td>
+                                                            <td>2012</td>
                                                         </tr>
                                                         <tr>
                                                             <th>Priser</th>
                                                         </tr>
                                                         <tr>
                                                             <td>Pr. dag:</td>
-                                                            <td>kr. 850,-</td>
+                                                            <td>kr. 950,-</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Pr. uke:</td>
-                                                            <td>kr. 4500,-</td>
+                                                            <td>kr. 4850,-</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Pr. måned:</td>
-                                                            <td>kr. 12000,-</td>
+                                                            <td>kr. 13500,-</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -357,11 +346,275 @@
                     </li>
                 </ul>
                 <ul id="BCars" class="carList">
-                    <li class="car"><h2>BCar</h2></li>
-                    <li class="car"><h2>BCar</h2></li>
+                    <li class="car">
+                        <div class="carContainer">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="carImgWrapper">
+                                                <img src="img/PorscheCayenne.png" alt="Porsche Cayenne" class="carImg" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="carName">Porsche Cayenne</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <table class="carInfo">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Forbruk: </td>
+                                                            <td>11,9L pr. 10km</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Motor: </td>
+                                                            <td>550hk</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Drivstoff: </td>
+                                                            <td>Bensin</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Årsmodell: </td>
+                                                            <td>2015</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Priser</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. dag:</td>
+                                                            <td>kr. 3000,-</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. uke:</td>
+                                                            <td>kr. 15000,-</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. måned:</td>
+                                                            <td>kr. 37500,-</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a name="Bestill" class="orderBtn">Bestill</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="car">
+                        <div class="carContainer">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="carImgWrapper">
+                                                <img src="img/SkodaOctavia.jpg" alt="Skoda Octavia" class="carImg" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="carName">Skoda Octavia</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <table class="carInfo">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Forbruk: </td>
+                                                            <td>0,46L pr. 10km</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Motor: </td>
+                                                            <td>150hk</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Drivstoff: </td>
+                                                            <td>Diesel</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Årsmodell: </td>
+                                                            <td>2018</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Priser</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. dag:</td>
+                                                            <td>kr. 1700,-</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. uke:</td>
+                                                            <td>kr. 9000,-</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. måned:</td>
+                                                            <td>kr. 20000,-</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a name="Bestill" class="orderBtn">Bestill</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
                 </ul>
-                <ul id="CCars" class="carList"></ul>
-                <ul id="DCars" class="carList"></ul>
+                <ul id="CCars" class="carList">
+                    <li class="car">
+                        <div class="carContainer">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="carImgWrapper">
+                                                <img src="img/noCar.png" alt="Ingen biler her" class="carImg" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="carName">Ikke implementert</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <table class="carInfo">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Forbruk: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Motor: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Drivstoff: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Årsmodell: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Priser</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. dag:</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. uke:</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. måned:</td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a name="Bestill" class="orderBtn">Bestill</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+                <ul id="DCars" class="carList">
+                    <li class="car">
+                        <div class="carContainer">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="carImgWrapper">
+                                                <img src="img/noCar.png" alt="Ingen biler her" class="carImg" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="carName">Ikke implementert</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <table class="carInfo">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Forbruk: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Motor: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Drivstoff: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Årsmodell: </td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Priser</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. dag:</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. uke:</td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Pr. måned:</td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a name="Bestill" class="orderBtn">Bestill</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -401,5 +654,6 @@
             </div>
         </div>
         <hr>
+        </footer>
 </body>
 </html>

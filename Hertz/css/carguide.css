@@ -44,10 +44,16 @@
     padding: 10px;
 }
 .carImg {
-    padding: 4px 4px 4px 4px;
-    border: 1px solid #CCC;
+    max-height: 128px;
+    max-width: 220px;
     height: auto;
     width: auto;
+    display:flex;
+}
+.carImgWrapper {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #CCC;
+    
 }
 .carName{
     font-weight: 700;
@@ -63,7 +69,4 @@
 td{
     padding-left: 10px;
     padding-right:10px;
-}
-#destinasjon {
-    font-size: 18px;
 }
