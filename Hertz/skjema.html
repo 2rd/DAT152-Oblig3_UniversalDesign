@@ -76,7 +76,7 @@
 
 	<main>
 		<header><h1>Bestilling</h1></header>
-		<form action="#">	
+		<form action="ordreoppsummering.html">	
 			<label for="fullt navn">Fullt Navn:<span class="required"> *</span>
 			<input required type="text" name="fullt navn" id="fullt navn">
 			</label>
@@ -85,10 +85,10 @@
 			<input required type="email" name="email" id="email">
 
 			<label for="phone">Telefon nummer:<span class="required"> *</span></label>
-			<input type="nummer" name="phone" maxlength="8" minlength="8" id="phone" required>
+			<input type="number" name="phone" maxlength="8" minlength="8" id="phone" required>
 
 			<label for="alder">Din alder ved hentetidspunktet:<span class="required"> *</span></label>
-			<input type="number" name="alder" required min="18" max="115" name="alder" id="alder">
+			<input type="number" name="alder" required min="18" max="115" id="alder">
 				
 			<div class="container"> 
 				<h2 class="containerLabel">Hentes</h2>
@@ -106,7 +106,30 @@
 				<label for="leveringsTid">klokkeslett:<span class="required"> *</span></label>
 				<input required type="time" name="henteTidspunkt" id="leveringsTid">
 			</div>
+            <div id="carTypeContainer">
+                <h2 class="containerLabel">Biltype</h2>
+                <label for="bil">Velg bil:<span class="required"> *</span></label>
+                <select id="bil">
+                    <option>velg bil:</option>
+                    <optgroup label="Kategori A">
+                        <option>Peugot 108</option>
+                        <option>Volvo V40</option>
+                        <option>VW Golf</option>
+                    </optgroup>
+                    <optgroup label="Kategori B">
+                        <option>Porsche Cayenne</option>
+                        <option>Skoda Octavia</option>
+                    </optgroup>
+                    <optgroup label="Kategori C">
+                        <option>Ikke implementert</option>
+                    </optgroup>
+                    <optgroup label="Kategori D">
+                        <option>Ikke implementert</option>
+                    </optgroup>
+                </select>
+            </div>
 			<input type="submit" name="bestill" id="submit" value="Bestill">
+            
 			
 		</form>
 	</main>
