@@ -3,6 +3,10 @@ body{
     background-color: black;
 }
 
+
+#mobile-menu{
+    display: none;
+}
 .dropbtn {
     background-color: black;
     color: white;
@@ -262,3 +266,7 @@ hr {
 #newsletterLabel {
     color: #f4d142;
 }
+
+#menu-btn-phone{
+        display: none;
+    }

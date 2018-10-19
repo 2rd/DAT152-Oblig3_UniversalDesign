@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/deskmenu.css">
     <link rel="stylesheet" type="text/css" href="css/carguide.css">
+     <link rel="stylesheet" type="text/css" href="css/mediumscreen.css">
+    <link rel="stylesheet" type="text/css" href="css/smallscreen.css">
     <title>Hertz Bilguide</title>
     <script>
         function showA() {
@@ -46,7 +48,11 @@
         <ul id="header">
             <li>
                 <a href="index.html" id="logo-img-link">
+<<<<<<< HEAD
                     <img src = "./img/logo_hertz_app.png" alt="Hertz logo">
+=======
+                    <img src = "./img/logo_hertz_app.png"/ alt="Hertz logo" id="hertz-logo-img">
+>>>>>>> 968ecf7fbcebbc81a0ff8ae44a4e28fa1c2f5468
                 </a>
                 <!--<a id="logo" href="index.html">Hertz</a>-->
             </li>
@@ -58,8 +64,8 @@
                         <span>NO</span>
                     </div>
                     <div class="separator-vertical"></div>
-
                     <button id="login">Logg inn / Meld deg inn nå</button>
+                    <img id="menu-btn-phone" src="./img/menu.png" alt="show menu" onclick="showMenu();">
                 </div>  
             </li>
         </ul>
@@ -122,6 +128,24 @@
                 </div>
             </li>
         </ul>
+
+        <div id="mobile-menu">
+            <div id="menu-content-wrapper">
+                <img src="./img/close.png" alt="close menu" id="close" onclick="hideMenu()">
+                <div id="mobile-menu-list">
+                    <div class ="menuline">
+                        <a href="bilguide.html"><h1>BILGUIDE</h1></a>
+                    </div>
+                    <div class ="menuline">
+                        <a href="notImplemented.html"><h1>LEIEBIL</h1></a>
+                    </div>
+                    <div class ="menuline">
+                        <a href="notImplemented.html"><h1>LOGG INN</h1></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </nav>
     <main>
         <div id="vehicleContainer">
@@ -655,5 +679,6 @@
         </div>
         <hr>
         </footer>
+        <script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
