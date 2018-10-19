@@ -60,4 +60,11 @@
         text-decoration: none;
 
     }
+
+    .carList{
+    	display: flex;
+    	padding: 0;
+    	border: unset;
+    	flex-direction: column;
+    }
  }
