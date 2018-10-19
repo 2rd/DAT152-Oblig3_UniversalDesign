@@ -196,6 +196,7 @@ hr {
     background-color: #272827;
     border: 1px;
     border-color: #272827;
+    color:white;
 }
 
 #addBtn {
@@ -256,4 +257,7 @@ hr {
 #contentContainer {
     background-color: none;
     height: 80%;
+}
+#newsletterLabel {
+    color: #f4d142;
 }

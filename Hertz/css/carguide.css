@@ -8,8 +8,9 @@
     margin: 0 auto;
     padding: 20px 30px;
 }
-h2 {
-    text-align:center;
+#categoryHeadline {
+    text-align: center;
+    color: black;
 }
 .car {
     padding: 1px;
@@ -62,4 +63,7 @@ h2 {
 td{
     padding-left: 10px;
     padding-right:10px;
+}
+#destinasjon {
+    font-size: 18px;
 }

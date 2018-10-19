@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="nb" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -126,11 +126,18 @@
     <main>
         <div id="vehicleContainer">
             <div>
-                <span>Velg destinasjonsland</span>
-                <select id="destinasjon" name="velg destinasjonsland"></select>
+                <span>
+                    <label for="destinasjon">Velg destinasjonsland</label>
+                </span>
+                <select id="destinasjon" name="velg destinasjonsland">
+                    <option value="Norge">Norge</option>
+                    <option value="Danmark">Danmark</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Sverige">Sverige</option>                                 
+                </select>
             </div>
             <div id="categoriesContainer">
-                <h2>Kategorier</h2>
+                <h2 id="categoryHeadline">Kategorier</h2>
                 <ul id="categoryList">
 
                     <li>
