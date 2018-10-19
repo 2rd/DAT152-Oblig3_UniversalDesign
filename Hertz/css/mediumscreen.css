@@ -1,6 +1,11 @@
+@media all and (min-width: 768px) 
+		and (max-width: 1024px)
+ 
+ { 
+
 
 body{
-    background-color: black;
+    background-color: red;
 }
 
 .dropbtn {
@@ -253,7 +258,9 @@ hr {
     align-items: center;
 }
 
-#contentContainer {
-    background-color: none;
-    height: 80%;
-}
+
+
+
+
+
+ }
